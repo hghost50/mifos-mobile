@@ -1,11 +1,7 @@
 name: Workflow for master/development branches
 
 on:
-  pull_request:
-  push:
-    branches:
-      - 'development'
-      - 'master'
+ workflow_dispatch
 
 jobs:
   build:
