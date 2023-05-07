@@ -19,7 +19,7 @@ class BaseURL {
 
     companion object {
         const val API_ENDPOINT = "192.168.8.100"
-        const val API_PATH = "/fineract-provider/api/v1/"
+        const val API_PATH = "/fineract-provider/api/v1/self/"
         const val PROTOCOL_HTTPS = "https://"
     }
 }
